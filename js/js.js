@@ -124,7 +124,7 @@ $(document).ready(function(){
         'width': '90px',
         'height': '90px',
       })
-      $('body').css('background','#00a0f0');
+      $('body').css('background','#222');
     }
     else if($(this).hasClass('aComp1')){
       $('.colorescent .circulo').css({
@@ -135,7 +135,7 @@ $(document).ready(function(){
         'width': '90px',
         'height': '90px',
       })
-      $('body').css('background','#00aef3');
+      $('body').css('background','#ff1b4c');
     }
     else{
       $('.colorescent .circulo').css({
@@ -146,7 +146,7 @@ $(document).ready(function(){
         'width': '90px',
         'height': '90px',
       })
-      $('body').css('background','#008eee');
+      $('body').css('background','#fff');
     }
 
   })

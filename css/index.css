@@ -5,13 +5,13 @@
 
 *{
   margin: 0;
-  font-family: 'Caveat', cursive;
+  font-family: 'PT Serif', serif;
   font-weight: 700;
   font-size: 24px;
 
 }
 body{
-  background: #00a0f0;
+  background: #ff1b4c;
   transition: ease 1s;
 }
 .row{
@@ -19,12 +19,12 @@ body{
 }
 
 h1{
-  font-family: 'Anton', sans-serif;
+  font-family: 'Pacifico', cursive;
   font-size: 1.5em;
 }
 
 header{
-  background: #00a0f0;
+  background: #ff1b4c;
   height: 50px;
   color: rgba(256, 256, 256, .7);
   transition: .2s;
@@ -112,7 +112,7 @@ header .contheader .nombre svg:hover{
 
 /* COLORES 1*/
 .contCambiodecolor{
-  /* height: 200px; */
+  height: auto;
   margin-top: 30px;
 }
 .colorescent .activecolor{
@@ -122,6 +122,7 @@ header .contheader .nombre svg:hover{
 .colorescent{
   margin: auto;
   color: white;
+  height: 100px;
 }
 .colorescent .circulo{
   width: 80px;
@@ -129,20 +130,24 @@ header .contheader .nombre svg:hover{
   border-radius: 50%;
   border: white solid 3px;
   transition: ease .2s;
+/* 
+  position: absolute;
+  right: 0; */
+}
 
+
+.circulo.aPrincipal{
+  background: #222;
   position: absolute;
   right: 0;
 }
-
-
-.aPrincipal{
-  background: #00a0f0;
+.circulo.aComp1{
+  background: #ff1b4c;
+  margin: auto;
 }
-.aComp1{
-  background: #00aef3;
-}
-.aComp2{
-  background: #008eee;
+.circulo.aComp2{
+  background: white;
+  border: #222 solid 3px;
 }
 
 .nombrecolor{
@@ -225,7 +230,7 @@ header .contheader .nombre svg:hover{
 }
 
 .tipografia .fuentePrincipal h1{
-  font-family: American Captain;
+  font-family: 'Pacifico', cursive;
   padding: 10px 0 0;
   margin-bottom: 0;
 }
@@ -234,11 +239,11 @@ header .contheader .nombre svg:hover{
   color: white;
   text-align: center;
   margin-top: 12px;
-  font-family: American Captain;
+  font-family: 'Pacifico', cursive;
 }
 
 .tipografia .fuenteComp h1{
-  font-family: 'Caveat', cursive;
+  font-family: 'PT Serif', serif;
   padding: 10px 0 0;
   margin-bottom: 0;
 }
@@ -258,7 +263,7 @@ header .contheader .nombre svg:hover{
   
   .botones > div > div{
     font-size: 24px;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Pacifico', cursive;
     text-align: center;  
     color: white;
   }
