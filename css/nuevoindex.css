@@ -1,3 +1,4 @@
+/* ----- GLOBALES ----- */
 * {
   margin: 0;
   font-family: 'PT Serif', serif;
@@ -15,33 +16,20 @@ h1 {
   font-family: 'Pacifico', cursive;
   font-size: 1.5em; }
 
+/* ----- HEADER ----- */
 header {
   background: #ff1b4c;
-  height: 50px;
-  color: rgba(255, 255, 255, 0.7);
+  height: 70px;
   transition: .2s; }
-
-header .contheader {
-  max-width: 800px;
-  margin: auto; }
-
-header .contheader .burguermenu {
-  width: 47px; }
-
-header .contheader .burguermenu i {
-  padding: 13px; }
-
-header .contheader .burguermenu i:hover {
-  color: white; }
-
-header .contheader .nombre svg {
-  height: 50px;
-  float: right;
-  opacity: .7;
-  transition: .2s; }
-
-header .contheader .nombre svg:hover {
-  opacity: 1; }
+  header .contheader {
+    max-width: 800px;
+    margin: auto;
+    position: relative; }
+    header .contheader svg {
+      height: 50px;
+      float: right;
+      transition: .2s;
+      position: absolute; }
 
 /* -------CREADOR------- */
 .creador {
@@ -169,17 +157,14 @@ header .contheader .nombre svg:hover {
 .comp1, .comp2 {
   padding: 0 30px 0; }
 
-/* .tipografia{
-  font-family: American Captain;
-} */
 .tipografia {
   margin: 30px auto 0;
   color: white;
   text-align: center; }
 
 .tipografia > div {
-  /* height: 81px; */
-  background: rgba(0, 0, 0, 0.3); }
+  background: rgba(0, 0, 0, 0.3);
+  padding-bottom: 15px; }
 
 .tipografia .fuentePrincipal h1 {
   font-family: 'Pacifico', cursive;

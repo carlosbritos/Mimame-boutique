@@ -1,3 +1,6 @@
+@import '_variables';
+
+/* ----- GLOBALES ----- */
 *{
   margin: 0;
   font-family: 'PT Serif', serif;
@@ -6,54 +9,41 @@
 
 }
 body{
-  background: #ff1b4c;
+  background: $color-principal;
   transition: ease 1s;
 }
 .row{
   margin: 0;
 }
-
 h1{
   font-family: 'Pacifico', cursive;
   font-size: 1.5em;
 }
 
+/* ----- HEADER ----- */
 header{
-  background: #ff1b4c;
-  height: 50px;
-  color: rgba(256, 256, 256, .7);
+  background: $color-principal;
+  height: 70px;
   transition: .2s;
-}
-
-header .contheader{
-  max-width: 800px;
-  margin: auto;
-}
-
-header .contheader .burguermenu{
-  width: 47px;
-}
-
-header .contheader .burguermenu i{
-  padding: 13px;
   
+  .contheader{
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+   
+    svg{
+      height: 50px;
+      float: right;
+      transition: .2s;
+      position: absolute;
+    }
+    
+    
+  }
 }
 
-header .contheader .burguermenu i:hover{
-  color: white;
-  
-}
 
-header .contheader .nombre svg{
-  height: 50px;
-  float: right;
-  opacity: .7;
-  transition: .2s;
-}
 
-header .contheader .nombre svg:hover{
-  opacity: 1;
-}
 
 /* -------CREADOR------- */
 .creador{
@@ -137,7 +127,7 @@ header .contheader .nombre svg:hover{
   right: 0;
 }
 .circulo.aComp1{
-  background: #ff1b4c;
+  background: $color-principal;
   margin: auto;
 }
 .circulo.aComp2{
@@ -209,10 +199,6 @@ header .contheader .nombre svg:hover{
   padding: 0 30px 0;
 }
 
-/* .tipografia{
-  font-family: American Captain;
-} */
-
 .tipografia{
   margin: 30px auto 0;
   color: white;
@@ -220,8 +206,8 @@ header .contheader .nombre svg:hover{
 }
 
 .tipografia > div{
-  /* height: 81px; */
   background: rgba(0, 0, 0, .3);
+  padding-bottom: 15px;
 }
 
 .tipografia .fuentePrincipal h1{
@@ -269,7 +255,7 @@ header .contheader .nombre svg:hover{
   .btn-prev div{
     height: 35px;
     width: 35px;
-    background: #ff1b4c; 
+    background: $color-principal; 
     border-radius: 50%;
 
     position: absolute;
@@ -279,7 +265,7 @@ header .contheader .nombre svg:hover{
   .btn-next div{
     height: 35px;
     width: 35px;
-    background: #ff1b4c; 
+    background: $color-principal; 
     border-radius: 50%;
   }
 
@@ -324,7 +310,7 @@ header .contheader .nombre svg:hover{
 footer{
   width: 100%;
   height: 100px;
-  background: #ff1b4c;
+  background: $color-principal;
   color: white;
   text-align: center;
 }
