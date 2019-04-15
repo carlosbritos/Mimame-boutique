@@ -188,7 +188,15 @@ header {
 /* CONSTRUCCION DEL LOGO*/
 /* botones */
 .botones {
-  padding: 20px; }
+  padding: 20px;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 100%;
+  opacity: 0; }
 
 .botones > div {
   padding: 10px;
@@ -219,9 +227,11 @@ header {
   border-radius: 50%; }
 
 /* construccion */
-.construccionDelLogo {
-  margin: 30px auto 0;
+.construction {
   position: relative; }
+  .construction .construccionDelLogo {
+    margin: 30px auto 0;
+    position: relative; }
 
 .construccionDelLogo .contImages:first-child {
   position: static; }

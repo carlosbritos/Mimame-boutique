@@ -235,6 +235,15 @@ header{
 /* botones */ 
   .botones{
     padding: 20px;
+
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 100%;
+    opacity: 0;
   }
   
   .botones > div{
@@ -273,9 +282,14 @@ header{
 
 /* construccion */
 
-.construccionDelLogo{
-  margin: 30px auto 0;
+.construction{
   position: relative;
+
+  .construccionDelLogo{
+    margin: 30px auto 0;
+    position: relative;
+  }
+
 }
 
 
@@ -301,6 +315,8 @@ header{
 .contImages.opacityactive{
   opacity: 1;
 }
+
+
 
 /* --------------- */
 /* SLIDER APLICACIONES */
