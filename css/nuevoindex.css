@@ -19,17 +19,20 @@ h1 {
 /* ----- HEADER ----- */
 header {
   background: #ff1b4c;
-  height: 70px;
   transition: .2s; }
   header .contheader {
     max-width: 800px;
     margin: auto;
-    position: relative; }
+    position: relative;
+    height: 70px; }
     header .contheader svg {
       height: 50px;
-      float: right;
       transition: .2s;
-      position: absolute; }
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto; }
 
 /* -------CREADOR------- */
 .creador {
