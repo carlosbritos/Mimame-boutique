@@ -34,11 +34,27 @@ header{
     svg{
       height: 50px;
       transition: .2s;
+      margin: 10px 2px;
+    }
+
+    .botones-header{
       position: absolute;
-      top: 0;
-      bottom: 0;
       right: 0;
-      margin: auto;
+      top: 50%;
+      transform: translateY(-50%);
+      font-family: 'pacifico', Arial, Helvetica, sans-serif;
+      color: white;
+
+      div{
+        font-family: inherit;
+        
+        a{
+          font-family: inherit;
+          .btn{
+            color: white;
+          }
+        }
+      }
     }
   }
 }

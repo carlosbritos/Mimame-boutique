@@ -28,11 +28,20 @@ header {
     header .contheader svg {
       height: 50px;
       transition: .2s;
+      margin: 10px 2px; }
+    header .contheader .botones-header {
       position: absolute;
-      top: 0;
-      bottom: 0;
       right: 0;
-      margin: auto; }
+      top: 50%;
+      transform: translateY(-50%);
+      font-family: 'pacifico', Arial, Helvetica, sans-serif;
+      color: white; }
+      header .contheader .botones-header div {
+        font-family: inherit; }
+        header .contheader .botones-header div a {
+          font-family: inherit; }
+          header .contheader .botones-header div a .btn {
+            color: white; }
 
 /* -------CREADOR------- */
 .creador {
